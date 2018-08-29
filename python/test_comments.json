@@ -1,0 +1,23 @@
+{
+	"exact": [
+		{
+			"message": "General Kenobi Commented!",
+			"body": "Hello there!",
+			"author": "random-user",
+			"reply": "General Kenobi!"
+
+		},
+		{
+			"message": "Reposti Commented!",
+			"body": "General Resposti!",
+			"author": "random-user",
+			"reply": ["You are a bold one!", "You are an old one!"]
+		},
+		{
+			"message": "Kenobi Commented!",
+			"body": "General Kenobi!",
+			"author": "random-user",
+			"reply": "You are a bold one!"
+		},
+	]
+}

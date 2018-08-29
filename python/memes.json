@@ -1,0 +1,68 @@
+{
+	"exact": [
+		{
+			"hello there!*": "General Kenobi!",
+			"message": "General Kenobi Commented!"
+		},
+		{
+			"general reposti!*": ["You are a bold one!", "You are an old one!"],
+			"message": "Reposti Commented!"
+		},
+		{
+			"general kenobi!*": "You are a bold one!",
+			"message": "Kenobi Commented!"
+		},
+		{
+			"I am the Senate": "Not. Yet.",
+			"message": "Senate Commented!"
+		},
+		{
+			"(My lord)?,? ?is that,? legal\?": "Not. Yet.",
+			"message": "Legal Commented!"
+		},
+		{
+			"I sense a trap.?": "Next move?",
+			"message": "Trap Commented"
+		},
+		{
+			"Is it possible to learn this power\??": "Not from a Jedi",
+			"message": "Learn Power Commented"
+		},
+		{
+			"I'?ve been looking forward to this.?": "My powers have doubled since the last time we met count",
+			"message": "Looking Foward to This Commented"
+		},
+		{
+			"(Kill him,)? kill him now": "I shouldn't",
+			"message": "Kill him now Commented"
+		},
+		{
+			"I shouldn'?t": "Dewit",
+			"message": "I Shouldn't Commented"
+		},
+		{
+			"[Adas's law](http://starwars.wikia.com/wiki/Adas) is an Internet adage that asserts that 'As an online discussion grows longer, the probability of a comparison involving General Kenobi approaches, that is, if an online discussion (regardless of topic or scope) goes on long enough, sooner or later someone will compare someone or something to General Kenobi or his deeds. ' ": "Hello fellow bot",
+			"message": "Ada's bot Commented"
+		},
+		{
+			"/?r/PrequelMemes": "Is where the fun begins!",
+			"message": "r/PrequelMemes Commented"
+		},
+		{
+			"/?r/SequelMemes": "It's treason then",
+			"message": "r/SequelMemes Commented"
+		},
+		{
+			"I hate you!?": "You were my brother, Anakin! I loved you",
+			"message": "I hate you Commented"
+		},
+		{
+			"He'?s a Sith Lord.?": "Chancellor Palpatine, Sith lords are our speciality",
+			"message": "Sith Lord Commented"
+		},
+		{
+			"Ninth time": "That business on Cato Neimoidia doesn't... doesn't count",
+			"message": "Ninth Time Commented"
+		}
+	]
+}
