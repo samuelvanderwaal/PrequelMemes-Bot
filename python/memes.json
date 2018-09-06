@@ -1,68 +1,111 @@
 {
-	"exact": [
-		{
-			"hello there!*": "General Kenobi!",
-			"message": "General Kenobi Commented!"
-		},
-		{
-			"general reposti!*": ["You are a bold one!", "You are an old one!"],
-			"message": "Reposti Commented!"
-		},
-		{
-			"general kenobi!*": "You are a bold one!",
-			"message": "Kenobi Commented!"
-		},
-		{
-			"I am the Senate": "Not. Yet.",
-			"message": "Senate Commented!"
-		},
-		{
-			"(My lord)?,? ?is that,? legal\?": "Not. Yet.",
-			"message": "Legal Commented!"
-		},
-		{
-			"I sense a trap.?": "Next move?",
-			"message": "Trap Commented"
-		},
-		{
-			"Is it possible to learn this power\??": "Not from a Jedi",
-			"message": "Learn Power Commented"
-		},
-		{
-			"I'?ve been looking forward to this.?": "My powers have doubled since the last time we met count",
-			"message": "Looking Foward to This Commented"
-		},
-		{
-			"(Kill him,)? kill him now": "I shouldn't",
-			"message": "Kill him now Commented"
-		},
-		{
-			"I shouldn'?t": "Dewit",
-			"message": "I Shouldn't Commented"
-		},
-		{
-			"[Adas's law](http://starwars.wikia.com/wiki/Adas) is an Internet adage that asserts that 'As an online discussion grows longer, the probability of a comparison involving General Kenobi approaches, that is, if an online discussion (regardless of topic or scope) goes on long enough, sooner or later someone will compare someone or something to General Kenobi or his deeds. ' ": "Hello fellow bot",
-			"message": "Ada's bot Commented"
-		},
-		{
-			"/?r/PrequelMemes": "Is where the fun begins!",
-			"message": "r/PrequelMemes Commented"
-		},
-		{
-			"/?r/SequelMemes": "It's treason then",
-			"message": "r/SequelMemes Commented"
-		},
-		{
-			"I hate you!?": "You were my brother, Anakin! I loved you",
-			"message": "I hate you Commented"
-		},
-		{
-			"He'?s a Sith Lord.?": "Chancellor Palpatine, Sith lords are our speciality",
-			"message": "Sith Lord Commented"
-		},
-		{
-			"Ninth time": "That business on Cato Neimoidia doesn't... doesn't count",
-			"message": "Ninth Time Commented"
-		}
-	]
+    "exact": [
+        {
+            "pattern": "hello there!*",
+            "reply": ["General Kenobi!"],
+            "message": "General Kenobi Commented!"
+        },
+        {
+            "pattern": "general reposti!*",
+            "reply": ["You are a bold one!", "You are an old one!"],
+            "message": "Reposti Commented!"
+        },
+        {
+            "pattern": "general kenobi!*",
+            "reply": ["You are a bold one!"],
+            "message": "Kenobi Commented!"
+        },
+        {
+            "pattern": "I am the Senate",
+            "reply": ["Not. Yet."],
+            "message": "Senate Commented!"
+        },
+        {
+            "pattern": "(My lord)?,? ?is that,? legal\\?",
+            "reply": ["Not. Yet."],
+            "message": "Legal Commented!"
+        },
+        {
+            "pattern": "I sense a trap.?",
+            "reply": ["Next move?"], 
+            "message": "Trap Commented"
+        },
+        {
+            "pattern": "Is it possible to learn this power\\??",
+            "reply": ["Not from a Jedi"],
+            "message": "Learn Power Commented"
+        },
+        {
+            "pattern": "I'?ve been looking forward to this.?",
+            "reply": ["My powers have doubled since the last time we met count"],
+            "message": "Looking Foward to This Commented"
+        },
+        {
+            "pattern": "(Kill him,)? kill him now",
+            "reply": ["I shouldn't"],
+            "message": "Kill him now Commented"
+        },
+        {
+            "pattern": "I shouldn'?t",
+            "reply": ["Dewit"],
+            "message": "I Shouldn't Commented"
+        },
+        {
+            "pattern": "[Adas's law](http://starwars.wikia.com/wiki/Adas) is an Internet adage that asserts that 'As an online discussion grows longer, the probability of a comparison involving General Kenobi approaches, that is, if an online discussion (regardless of topic or scope) goes on long enough, sooner or later someone will compare someone or something to General Kenobi or his deeds. ' ",
+            "reply": [ "Hello fellow bot"], 
+            "message": "Ada's bot Commented"
+        },
+        {
+            "pattern": "/?r/PrequelMemes",
+            "reply": ["Is where the fun begins!"],
+            "message": "r/PrequelMemes Commented"
+        },
+        {
+            "pattern": "/?r/SequelMemes",
+            "reply": ["It's treason then"],
+            "message": "r/SequelMemes Commented"
+        },
+        {
+            "pattern": "I hate you!?",
+            "reply": ["You were my brother, Anakin! I loved you"],
+            "message": "I hate you Commented"
+        },
+        {
+            "pattern": "He'?s a Sith Lord.?",
+            "reply": ["Chancellor Palpatine, Sith lords are our speciality"],
+            "message": "Sith Lord Commented"
+        },
+        {
+            "pattern": "Ninth time",
+            "reply": ["That business on Cato Neimoidia doesn't... doesn't count"],
+            "message": "Ninth Time Commented"
+        }
+    ],
+    "partial": [
+        {
+            "phrases": ["very impressive,?", "must be very proud"],
+            "reply": "I’m just a simple man, trying to make my way in the universe",
+            "message": "Impressive Clones Commented"
+        },
+        {
+            "phrases": ["I'll try", "a good trick"],
+            "reply": ["Yippee!", "This is where the fun begins"],
+            "message": "Spinning Commented"
+        },
+        {
+            "phrases": ["Wanna buy some death sticks"],
+            "reply": ["You don't want to sell me death sticks"],
+            "message": "Death Sticks Commented"
+        },
+        {
+            "phrases": ["just a simple", "trying to make my way in"],
+            "reply": ["Ever made your way as far into the interior as r/PrequelMemes?"],
+            "message": "Simple Man Commented"
+        },
+        {
+            "phrases": ["I'll try", "a good trick"],
+            "reply": ["Yippee!", "This is where the fun begins"],
+            "message": "Spinning Commented"
+        }
+    ]
 }
