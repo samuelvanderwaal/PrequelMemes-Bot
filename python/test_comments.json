@@ -23,5 +23,15 @@
         "body": "hallo there",
         "author": "random-user",
         "test": false
+    },
+    {
+        "body": "Hahahaha. My Lord, is that legal?",
+        "author": "random-user",
+        "test": false
+    },
+    {
+        "body": "My Lord, is that legal?",
+        "author": "random-user",
+        "test": true
     }
 ]

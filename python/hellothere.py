@@ -28,19 +28,23 @@ def process_submission(comment):
 
         # Check for exact matches
         for meme in memes["exact"]:
-            p = re.compile(meme["pattern"], re.I)
-            m = p.match(comment.body)
+            m = re.match(meme["pattern"], comment.body, re.I)
             
             if m:
                 print(meme["message"])
                 print("reddit.com" + comment.permalink)
                 time.sleep(1)
+                
                 # Choose answer randomly if mulitple answers
                 reply_len = len(meme["reply"])
                 if reply_len > 1:
                     comment.reply(meme["reply"][random.randint(0, reply_len - 1)])
                 else:
                     comment.reply(meme["reply"][0])
+
+                return True
+
+        return False
 
 
 if __name__ == '__main__':
