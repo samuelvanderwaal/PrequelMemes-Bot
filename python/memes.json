@@ -83,7 +83,7 @@
     ],
     "partial": [
         {
-            "pattern": ["very impressive,?", "must be very proud"],
+            "pattern": ["very impressive", "must be very proud"],
             "reply": "I’m just a simple man, trying to make my way in the universe",
             "message": "Impressive Clones Commented"
         },
