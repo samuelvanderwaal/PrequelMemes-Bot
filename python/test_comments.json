@@ -33,5 +33,20 @@
         "body": "My Lord, is that legal?",
         "author": "random-user",
         "test": true
+    },
+    {
+        "body": "I'm just a simple man who is trying to make my way in to town.",
+        "author": "random-user",
+        "test": true
+    },
+    {
+        "body": "Damn you! You turned her against me!",
+        "author": "random-user",
+        "test": true
+    },
+    {
+        "body": "Damn you! You have turned everyone against me!",
+        "author": "random-user",
+        "test": false
     }
 ]

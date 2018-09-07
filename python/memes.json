@@ -83,29 +83,44 @@
     ],
     "partial": [
         {
-            "phrases": ["very impressive,?", "must be very proud"],
+            "pattern": ["very impressive,?", "must be very proud"],
             "reply": "I’m just a simple man, trying to make my way in the universe",
             "message": "Impressive Clones Commented"
         },
         {
-            "phrases": ["I'll try", "a good trick"],
+            "pattern": ["I'll try", "a good trick"],
             "reply": ["Yippee!", "This is where the fun begins"],
             "message": "Spinning Commented"
         },
         {
-            "phrases": ["Wanna buy some death sticks"],
+            "pattern": ["Wanna buy some death sticks"],
             "reply": ["You don't want to sell me death sticks"],
             "message": "Death Sticks Commented"
         },
         {
-            "phrases": ["just a simple", "trying to make my way in"],
+            "pattern": ["just a simple", "trying to make my way in"],
             "reply": ["Ever made your way as far into the interior as r/PrequelMemes?"],
             "message": "Simple Man Commented"
         },
         {
-            "phrases": ["I'll try", "a good trick"],
-            "reply": ["Yippee!", "This is where the fun begins"],
-            "message": "Spinning Commented"
+            "pattern": ["doubled since the last time we met"],
+            "reply": ["Good. Twice the pride, double the fall"],
+            "message": "Looking Foward to This Commented"
+        },
+        {
+            "pattern": ["should have known the", "were plotting to take over"],
+            "reply": ["Anakin, Chancellor Palpatine is evil!"],
+            "message": "Plotting to Take Over Commented"
+        },
+        {
+            "pattern": ["Execute order", "execute order"],
+            "reply": ["It will be done, my lord"],
+            "message": "Execute Order Commented"
+        },
+        {
+            "pattern": ["You turned her against me"],
+            "reply": ["You have done that yourself"],
+            "message": "Turned Her Commented"
         }
     ]
 }

@@ -23,6 +23,8 @@ def main():
 
 def process_submission(comment):
 
+    SLEEP_TIME = 1
+
     # Don't reply to own comments
     if comment.author != "ThePrequelMemesBot":
 
@@ -33,7 +35,7 @@ def process_submission(comment):
             if m:
                 print(meme["message"])
                 print("reddit.com" + comment.permalink)
-                time.sleep(1)
+                time.sleep(SLEEP_TIME)
                 
                 # Choose answer randomly if mulitple answers
                 reply_len = len(meme["reply"])
@@ -43,6 +45,25 @@ def process_submission(comment):
                     comment.reply(meme["reply"][0])
 
                 return True
+
+        # Check for partial matches
+        for meme in memes["partial"]:
+            for pattern in meme["pattern"]:
+
+                if all(pattern in comment.body for pattern in meme["pattern"]):
+
+                    print(meme["message"])
+                    print("reddit.com" + comment.permalink)
+                    time.sleep(SLEEP_TIME)
+
+                    # Choose answer randomly if multiple answers
+                    reply_len = len(meme["reply"])
+                    if reply_len > 1:
+                        comment.reply(meme["reply"][random.randint(0, reply_len - 1)])
+                    else:
+                        comment.reply(meme["reply"][0])
+
+                    return True
 
         return False
 
